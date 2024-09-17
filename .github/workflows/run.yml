@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   schedule:
     #- cron: 35 3 * * *
-    - cron: 06 22 * * *
+    - cron: 20 22 * * *
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
