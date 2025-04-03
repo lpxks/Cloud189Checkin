@@ -7,7 +7,7 @@ on:
     types: started
   workflow_dispatch:
   schedule:
-    - cron: 35 2 * * *
+    - cron: "06 22 * * *"  #scheduled at 00:10 (UTC+8) everyday UTC+8比UTC快8个小时
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
